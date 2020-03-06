@@ -1,0 +1,13 @@
+// create new project using expo-cli
+$ npx expo-cli init project_name
+
+$ npm i react-navigation@4.1.1
+
+// Install Dependencies
+$  expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+
+// Install React Navigation Stack
+$ npm install react-navigation-stack @react-native-community/masked-view
+
+// Start app & clear cache
+$ npm start -c
