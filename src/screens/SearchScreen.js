@@ -22,6 +22,7 @@ const SearchScreen = () => {
       setResults(response.data.businesses);
     } catch(error) {
       setErrorMessage('Something went wrong. Please try again.');
+      console.log('error:', error.response);
     }
   };
 
